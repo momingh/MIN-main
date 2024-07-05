@@ -38,9 +38,6 @@ class MIN(GeneralRecommender):
         self.dropout = config['dropout']
         # self.construction = 'weighted_max'
         self.reg_weight = config['reg_weight']
-        self.align_weight = config['align_weight']
-        self.mask_weight_g = config['mask_weight_g']
-        self.mask_weight_f = config['mask_weight_f']
         self.pvn_weight = config['pvn_weight']
         self.cl_weight = config['cl_weight']
         self.epsilon = config['epsilon']
